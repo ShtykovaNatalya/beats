@@ -1,0 +1,24 @@
+.benefits {
+    display: flex;
+}
+
+.benefits__item {
+    flex: 1;
+    margin: 0 3%;
+
+    &:before {
+        content: url("../img/icons/Combined-2204.png");
+        position: absolute;
+        top: 30px;
+        right: 0;
+        transform: translateX(50%);
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+
+}

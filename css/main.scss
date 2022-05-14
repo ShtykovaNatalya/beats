@@ -1,0 +1,23 @@
+$conteinerWidth: 915px;
+$baseFontSize: 16px;
+
+$red: #E01F3D;
+$grey:#666666;
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Play:wght@400;700&display=swap');
+@import "layout";
+
+@import "hero";
+@import "header"; 
+@import "features";
+@import "feature";
+@import "btn";
+@import "section";
+@import "headline__title";
+@import "benefits";
+@import "benefit";
+@import "reviews";
+@import "interactive-avatar";
+@import "form";
+@import "order";
+@import "radio";
