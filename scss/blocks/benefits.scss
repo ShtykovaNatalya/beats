@@ -9,9 +9,10 @@
     &:before {
         content: url("../img/icons/Combined-2204.png");
         position: absolute;
-        top: 30px;
-        right: 0;
+        top: 54px;
+        right: -22px;
         transform: translateX(50%);
+        
     }
 
     &:first-child {
@@ -19,6 +20,10 @@
     }
     &:last-child {
         margin-right: 0;
+        &::before {
+            display: none;
+        }
+        
     }
 
 }
